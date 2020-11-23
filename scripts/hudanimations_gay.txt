@@ -1,0 +1,18 @@
+event HudLowAmmoPulse
+{
+	Animate	AmmoInClip	fgcolor	"FFFFFF"	Linear	0	0.5
+	Animate	AmmoInClip	fgcolor	"255 127 127 255"	Linear	0.5	0.5
+	
+	RunEvent	LowAmmoLoop
+}
+
+event HudLowAmmoPulseLoop
+{
+	RunEvent HudLowAmmoPulse 0.0
+}
+
+event HudLowAmmoPulseStop
+{
+	StopEvent HudLowAmmoPulse 0.0
+	StopEvent HudLowAmmoPulseLoop 0.0
+}
