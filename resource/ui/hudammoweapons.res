@@ -1,3 +1,7 @@
+// if youre reading this, i know what you might be thinking. "half of the elements in this
+// file look redundent, so why not remove them?" dont remove them. ive tried. it breaks things.
+// please trust me. -Bowie
+
 "Resource/UI/HudAmmoWeapons.res"
 {
 	"AmmoInClip"
@@ -31,7 +35,6 @@
 		"enabled"		"0"
 		"textAlignment"	"east"	
 		"labelText"		""
-		// cuck
 	}						
 	"AmmoInReserve"
 	{
@@ -65,7 +68,6 @@
 		"enabled"		"0"
 		"textAlignment"	"west"		
 		"labelText"		""
-		// cuck
 	}									
 	"AmmoNoClip"
 	{
@@ -98,7 +100,6 @@
 		"enabled"		"0"
 		"textAlignment"	"center"	
 		"labelText"		""
-		// cuck
 	}
 	"HudWeaponLowAmmoImage"
 	{
@@ -107,15 +108,15 @@
 		"xpos"			"18"
 		"ypos"			"0"
 		"zpos"			"0"
-		"wide"			"64"
-		"tall"			"32"
-		"visible"		""
-		"enabled"		"1"
-		"image"			"../hud/ammo_red_bg"
+		"wide"			"0"
+		"tall"			"0"
+		"visible"		"0"
+		"enabled"		"0"
+		"image"			""
 		"scaleImage"	"1"	
-		"teambg_2"		"../hud/ammo_red_bg"
-		"teambg_2_lodef"	"../hud/ammo_red_bg_lodef"
-		"teambg_3"		"../hud/ammo_blue_bg"
-		"teambg_3_lodef"	"../hud/ammo_blue_bg_lodef"			
+		"teambg_2"		""
+		"teambg_2_lodef"	""
+		"teambg_3"		""
+		"teambg_3_lodef"	""			
 	}
 }
